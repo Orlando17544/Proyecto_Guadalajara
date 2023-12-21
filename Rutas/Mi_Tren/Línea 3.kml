@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Línea 3</name>
+    <description/>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Estaciones</name>
+      <Placemark>
+        <name>Arcos de Zapopan
+</name>
+        <description><![CDATA[<img src="https://doc-00-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/jt1ohamvk54r002hq0uo25itok/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PitsV9P0HL-sUeCJou3SLYT8Yp6YF9ShGmhDuQoAT2mxF6x52lkl46UvgUn3B2A2I5wfGS0bgJ7vE-PlggTP49yvf5eJVMUymytqWP0Bg1ZKIXRk3jMGkwUqlidoy8JtbZqaipdVMR6c8dIKFpqR7rMadlASUBYyfee79jqZFVRo4X7xSeHPx1dptSrrxcp5EgOA?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/jt1ohamvk54r002hq0uo25itok/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PitsV9P0HL-sUeCJou3SLYT8Yp6YF9ShGmhDuQoAT2mxF6x52lkl46UvgUn3B2A2I5wfGS0bgJ7vE-PlggTP49yvf5eJVMUymytqWP0Bg1ZKIXRk3jMGkwUqlidoy8JtbZqaipdVMR6c8dIKFpqR7rMadlASUBYyfee79jqZFVRo4X7xSeHPx1dptSrrxcp5EgOA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.4074046,20.7411721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Periférico Belenes
+</name>
+        <description><![CDATA[<img src="https://doc-0s-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/sf29diqnqachv1kr7b9tu9ho80/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuO_6TllBZeHite_nt-w4xYmiYf1IKTVmz5mRkMVzPrCAvhvpVTlDHY2Yx9-IqqL555n3LYkXeEeY3hfIMDjJvyvVqQ8CIZlpHTv-E98Db7KYPnUXUPbYEDUHYIajycuuBXPi23pigSLB6bGQurBbQiO918xleRSjBXJUrsEhC5nZV9bJTd_bHXixzGKmCkqEf3?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/sf29diqnqachv1kr7b9tu9ho80/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuO_6TllBZeHite_nt-w4xYmiYf1IKTVmz5mRkMVzPrCAvhvpVTlDHY2Yx9-IqqL555n3LYkXeEeY3hfIMDjJvyvVqQ8CIZlpHTv-E98Db7KYPnUXUPbYEDUHYIajycuuBXPi23pigSLB6bGQurBbQiO918xleRSjBXJUrsEhC5nZV9bJTd_bHXixzGKmCkqEf3?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.4031536,20.7381163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado del Mar</name>
+        <description><![CDATA[<img src="https://doc-08-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/33usnb62kpk8br1gns0n7694mk/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivAlzi6nTXX18zEdkgJgrf3EM9Ux0NslUtTe9WKVrCnnwRc7T9zo3uSnWx1acb_ytHXb1G9HqsTLPGBegOXC-zAhiInj749QnDnrME3tKnolY3yvVqcafyQcE1autFmFFLQ4ZyyB6HukEc90RrTcBHc6xOsshQxzHwEbafUgPIHkFUHKwdUOt3OSEXQBkD-4Q98?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-0o-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/7n6o0mc3lr6q651kbqfmdumq1g/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8Pivj5v6S1uVXhu125eHIVZa2O19QUGkwzEneLGsnM0wXhIsuZrKl4arKI7ts8rRaghAe4ElwF5usYp5cAq_8J3wohqzTtrSkfZyr-yj0-he6C3_ErYJoyS4MJZbypffcnaAhOzkSMyYJzPxFbc-0B0YQbToFpyeAw9rRlI7W-oD41HTNQ5zcr45wuOQBOsq-0QBq?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/33usnb62kpk8br1gns0n7694mk/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivAlzi6nTXX18zEdkgJgrf3EM9Ux0NslUtTe9WKVrCnnwRc7T9zo3uSnWx1acb_ytHXb1G9HqsTLPGBegOXC-zAhiInj749QnDnrME3tKnolY3yvVqcafyQcE1autFmFFLQ4ZyyB6HukEc90RrTcBHc6xOsshQxzHwEbafUgPIHkFUHKwdUOt3OSEXQBkD-4Q98?session=0&fife https://doc-0o-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/7n6o0mc3lr6q651kbqfmdumq1g/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8Pivj5v6S1uVXhu125eHIVZa2O19QUGkwzEneLGsnM0wXhIsuZrKl4arKI7ts8rRaghAe4ElwF5usYp5cAq_8J3wohqzTtrSkfZyr-yj0-he6C3_ErYJoyS4MJZbypffcnaAhOzkSMyYJzPxFbc-0B0YQbToFpyeAw9rRlI7W-oD41HTNQ5zcr45wuOQBOsq-0QBq?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3896295,20.7288524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zapopan Centro</name>
+        <description><![CDATA[<img src="https://doc-0o-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/r418mtrlu4o1pb1l81d55ruqek/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PitRmmDm3Fm8JTBeg11uK4kCFf4_8rSiEL-x1zVQzGN9ABsyqTb2mSuyuryMBLxR4jGktEXXsXpRxcCkMnWtvFrnVmT1U5VNZlsXBTU74s6Tp1nNmf77FmEcXYhWL9I9_fnxmpuRaJnOKUSw7YYBXC5zBuJkPRiFX8HTu-aYFpIhkNnZgdbETNzzEvzv8oaf4xjl?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/r418mtrlu4o1pb1l81d55ruqek/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PitRmmDm3Fm8JTBeg11uK4kCFf4_8rSiEL-x1zVQzGN9ABsyqTb2mSuyuryMBLxR4jGktEXXsXpRxcCkMnWtvFrnVmT1U5VNZlsXBTU74s6Tp1nNmf77FmEcXYhWL9I9_fnxmpuRaJnOKUSw7YYBXC5zBuJkPRiFX8HTu-aYFpIhkNnZgdbETNzzEvzv8oaf4xjl?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3871971,20.7205874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza Patria</name>
+        <description><![CDATA[<img src="https://doc-0k-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/418nih47eriibcilmk4jqfp4ug/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiunMjAhB7c4p9ExLzVmbPidtICNTF1agDgnzEAVem_SJ26inHgIJlhqnhP4fynfS48K_m1SQ57HXlPAe3wIPh2Gn64gML9tzb0trBDxmxJcea4yGeD4ZXZvxd5zCj11TqQJ0YLW_efZGar7CDu-2pfzaOQEAPlvSoli3pLOTGqmWAtEGfcOhnENH3S-xp4sP4xG?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/418nih47eriibcilmk4jqfp4ug/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiunMjAhB7c4p9ExLzVmbPidtICNTF1agDgnzEAVem_SJ26inHgIJlhqnhP4fynfS48K_m1SQ57HXlPAe3wIPh2Gn64gML9tzb0trBDxmxJcea4yGeD4ZXZvxd5zCj11TqQJ0YLW_efZGar7CDu-2pfzaOQEAPlvSoli3pLOTGqmWAtEGfcOhnENH3S-xp4sP4xG?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3749837,20.7122608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Circunvalación Country
+</name>
+        <description><![CDATA[<img src="https://doc-0o-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/joq6v25si2kjekbdl19agv89ss/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8Pit2T1q_ob1rBEJc6dlmkdvFm_IEQaIlY6TWaVMYAuwAphRMH2YN6YuefU8_ma3fchXVLijvteDaFFd053opzJLmacmuboDOe8lUSAJrzVjjURhaYOToE9bOQCXas5f9s4c3t7iOPtm7i_kvqINhtBs5CG4zTD2T_28rtyD6DPi4NOTDpR8COUWg-GAdnGdlvwz6?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/joq6v25si2kjekbdl19agv89ss/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8Pit2T1q_ob1rBEJc6dlmkdvFm_IEQaIlY6TWaVMYAuwAphRMH2YN6YuefU8_ma3fchXVLijvteDaFFd053opzJLmacmuboDOe8lUSAJrzVjjURhaYOToE9bOQCXas5f9s4c3t7iOPtm7i_kvqINhtBs5CG4zTD2T_28rtyD6DPi4NOTDpR8COUWg-GAdnGdlvwz6?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3659942,20.7064992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ávila Camacho</name>
+        <description><![CDATA[<img src="https://doc-0o-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/1o57o83622s878r4pns9qsaqok/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivgxgGwB4qBfzd9vkPcoacYQds3ABtbEGVZiY82PyzjvQdGA9Y4wPmn1-lGbOLYeBNcLk03fEDOnNybrvRaeD9Kbt8vODzGzvKAtJbK_w848NnQ5Hu12dMZH7CXPzWTSm8vUFuqH0aB5oLm1iLq2MNfffzvI6GxvcjavuMxjvbeJET1YKE8DJjCJT1ZFB37W4mQ?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/1o57o83622s878r4pns9qsaqok/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivgxgGwB4qBfzd9vkPcoacYQds3ABtbEGVZiY82PyzjvQdGA9Y4wPmn1-lGbOLYeBNcLk03fEDOnNybrvRaeD9Kbt8vODzGzvKAtJbK_w848NnQ5Hu12dMZH7CXPzWTSm8vUFuqH0aB5oLm1iLq2MNfffzvI6GxvcjavuMxjvbeJET1YKE8DJjCJT1ZFB37W4mQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3547839,20.6993296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Normal (CETRAM)
+</name>
+        <description><![CDATA[<img src="https://doc-0g-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/uar4ki2cvm42c06a61rvalr3ck/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivDzA8zP4au-Mlr1PJGner-GYYCoiRMP5T4QSFRBbz5qDu_R8I5G4yNYxl0-7ChxQ3S0yv-FjDZGms7adhPddfepNGnV-E8vN0eqqvKV5vK7f7ljtmznpa7C3Lug3lWr6Gr-j1Zy1uVJf24gLKL7ucAdD181bj1hXThF-BFK9W4wigkZL_8IORzoMcskD3L97M3?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/uar4ki2cvm42c06a61rvalr3ck/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivDzA8zP4au-Mlr1PJGner-GYYCoiRMP5T4QSFRBbz5qDu_R8I5G4yNYxl0-7ChxQ3S0yv-FjDZGms7adhPddfepNGnV-E8vN0eqqvKV5vK7f7ljtmznpa7C3Lug3lWr6Gr-j1Zy1uVJf24gLKL7ucAdD181bj1hXThF-BFK9W4wigkZL_8IORzoMcskD3L97M3?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3483506,20.6928473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santuario</name>
+        <description><![CDATA[<img src="https://doc-00-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/kl6is35d3nq3duf7uegp5si6d4/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivDZEd3w7NnlaW5rT7mrzylt8EDym5DYPfnHNZyd26_lNTB_uhAxw9SIz2FejoliO-aJ8hFGhJBm_pzG2SVXtEi5VKUalX0wwsbOyf4Tzn8FNYXPM7QXdDH1KS8F1nyvojp4K4wURy8y3s4HTe0lHGRG0f-hYR_lEAclnCfGAMLXcHhgIzAkfHp3P5ac9x67jm3?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/kl6is35d3nq3duf7uegp5si6d4/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivDZEd3w7NnlaW5rT7mrzylt8EDym5DYPfnHNZyd26_lNTB_uhAxw9SIz2FejoliO-aJ8hFGhJBm_pzG2SVXtEi5VKUalX0wwsbOyf4Tzn8FNYXPM7QXdDH1KS8F1nyvojp4K4wURy8y3s4HTe0lHGRG0f-hYR_lEAclnCfGAMLXcHhgIzAkfHp3P5ac9x67jm3?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3479295,20.6841014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guadalajara Centro</name>
+        <description><![CDATA[<img src="https://doc-0s-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/amuv762sgqgrg036cfes5q6c9o/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PisikGGvbRlC6BgxzU0UmO6CCbWDx9InqM4sZylhue4jQzfbn-9PfiAeaiJshdY1Li4UtmGptMsEVteKu1VrI1mlHnzNCTpE4qQf4tBE-337niKNbsbQgoH9d54wPgOfoGGUygzrJhmaFYKIyptO6iH0yU6yJ3PJzqi7XSWdKJlXDfRD01FgWx1Zu3BkIc5JOCjM?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-0s-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/tbdc5ap8i69f3bhk8l86bucnas/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuWkFE8SgVyqvkpHZ5duLyEFLI8e1nieBOGSaHPYhTT6TkJVDKfCB0rG6OE8_8hy5GHarnEsH8fFp3skO1Zmw-IVRt9a2UVYGpIEUtJP3I-u5eaMFEFRO_HciDBquYWC_cddRRmH9sLprshrEIEyY8ukzQodosT43VyrWTP_WpYYEOSNB7ZKOTAhu9TpVDHyNX3?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/amuv762sgqgrg036cfes5q6c9o/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PisikGGvbRlC6BgxzU0UmO6CCbWDx9InqM4sZylhue4jQzfbn-9PfiAeaiJshdY1Li4UtmGptMsEVteKu1VrI1mlHnzNCTpE4qQf4tBE-337niKNbsbQgoH9d54wPgOfoGGUygzrJhmaFYKIyptO6iH0yU6yJ3PJzqi7XSWdKJlXDfRD01FgWx1Zu3BkIc5JOCjM?session=0&fife https://doc-0s-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/tbdc5ap8i69f3bhk8l86bucnas/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuWkFE8SgVyqvkpHZ5duLyEFLI8e1nieBOGSaHPYhTT6TkJVDKfCB0rG6OE8_8hy5GHarnEsH8fFp3skO1Zmw-IVRt9a2UVYGpIEUtJP3I-u5eaMFEFRO_HciDBquYWC_cddRRmH9sLprshrEIEyY8ukzQodosT43VyrWTP_WpYYEOSNB7ZKOTAhu9TpVDHyNX3?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3473689,20.6756873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Independencia</name>
+        <description><![CDATA[<img src="https://doc-0s-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/87btgvgcg6a8smo34teq77m668/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PitFY-nU25ght8NiwGbGMxoq4ca1iIe0_uU_xHx-42RyD4renp-UIP57JnfFBrzNoo8xDF6TSgF3myMq4In44v8y4NG4DtTZbQPlMWgFBvnoJLTOC46ct0lWm1v0N3VrIyaE2pAsI4A_rmbt2rpb-dSXm-2xfaHq59IdnuCiWIZ_NF8P3Rq76wK0KVb9kUL6brwg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/87btgvgcg6a8smo34teq77m668/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PitFY-nU25ght8NiwGbGMxoq4ca1iIe0_uU_xHx-42RyD4renp-UIP57JnfFBrzNoo8xDF6TSgF3myMq4In44v8y4NG4DtTZbQPlMWgFBvnoJLTOC46ct0lWm1v0N3VrIyaE2pAsI4A_rmbt2rpb-dSXm-2xfaHq59IdnuCiWIZ_NF8P3Rq76wK0KVb9kUL6brwg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3449214,20.6711025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza de la Bandera</name>
+        <description><![CDATA[<img src="https://doc-0g-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/f0o5ct6jr8b7r91e1hh3j0nmec/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuNqXc_8mMTyLUguhBt4Md7dgW2H7Fis4syxFQlbbbT_NMGxMv16C1LdsNpAAJMM1jXxBXq_oz0jhddI5HfbFaoaNOKssIoQNA4KxOPaib-wVXmP5O4dsIX7z6J-f-J7DFs2JdKesY2q444GYxlauBMAsaRFbD96AQoINJdnYZ4zOeulxhYLDThaTmfw3F5jR90?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/f0o5ct6jr8b7r91e1hh3j0nmec/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuNqXc_8mMTyLUguhBt4Md7dgW2H7Fis4syxFQlbbbT_NMGxMv16C1LdsNpAAJMM1jXxBXq_oz0jhddI5HfbFaoaNOKssIoQNA4KxOPaib-wVXmP5O4dsIX7z6J-f-J7DFs2JdKesY2q444GYxlauBMAsaRFbD96AQoINJdnYZ4zOeulxhYLDThaTmfw3F5jR90?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3326235,20.6650745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CUCEI</name>
+        <description><![CDATA[<img src="https://doc-04-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/tuvevo5mcbve5mh41upv8tgdm4/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuziGI_Sbw91xcjEdw1NOzxw4os79bxXCLsFLPyVIw7RGQOXC1qYtzMjfj1qmfV9K2h9z3Wz4pq28ypx5krwcyk1rZ6U0J5qEibAres6J8d6DObIQj53E5w-Q_lgal-vXhy8_qYnsJ9Z5BuwwJTx7TyKlL0oPFctONx3Zz1ZEK7wNUC5VWTa2eMiqv0TNdmxwd3?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/tuvevo5mcbve5mh41upv8tgdm4/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuziGI_Sbw91xcjEdw1NOzxw4os79bxXCLsFLPyVIw7RGQOXC1qYtzMjfj1qmfV9K2h9z3Wz4pq28ypx5krwcyk1rZ6U0J5qEibAres6J8d6DObIQj53E5w-Q_lgal-vXhy8_qYnsJ9Z5BuwwJTx7TyKlL0oPFctONx3Zz1ZEK7wNUC5VWTa2eMiqv0TNdmxwd3?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3241182,20.6596987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Revolución</name>
+        <description><![CDATA[<img src="https://doc-08-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/pin1vd2qp65uao95fb6ksuk1o4/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuoCVv84NQIvNJx5Y0WC6dCxR0bqivX3qZ1B6Te56rtBfAwHRIclrX4TbSh1F-MlbusavaPHvWUrpV3CYRR-C6IkPS09DbBKugECm9oy9Px-m6CB48zjCBjlhG8hR3oWKsw2C4WTUqH-NQ1yqvkI5qaRY8h9G3Lrrin1FQX8K_eSqLwLLSWyfEA2KoPGQJeouAC?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/pin1vd2qp65uao95fb6ksuk1o4/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuoCVv84NQIvNJx5Y0WC6dCxR0bqivX3qZ1B6Te56rtBfAwHRIclrX4TbSh1F-MlbusavaPHvWUrpV3CYRR-C6IkPS09DbBKugECm9oy9Px-m6CB48zjCBjlhG8hR3oWKsw2C4WTUqH-NQ1yqvkI5qaRY8h9G3Lrrin1FQX8K_eSqLwLLSWyfEA2KoPGQJeouAC?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3103341,20.6509822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Río Nilo</name>
+        <description><![CDATA[<img src="https://doc-14-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/9h04js7ub3mppgk46rg19ju9o8/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivmQvXKxWON0QQ_L0O_a2DwZYIcheo2yMJFC0W7icsxpIZzRkQ4lHRQlu4S5ybQgrel23l5lgXbUaJ1HcmQ64f9Dn5N0um3bSiq6nS64v-pxW0gRoEsQYXfqquW6HAxVZoEibz5QMc5TiV13nytpSaiVOBaiwKBxMA686ifnXwh-0u8YnRmm4uFQVcOrepnv5XM?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/9h04js7ub3mppgk46rg19ju9o8/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PivmQvXKxWON0QQ_L0O_a2DwZYIcheo2yMJFC0W7icsxpIZzRkQ4lHRQlu4S5ybQgrel23l5lgXbUaJ1HcmQ64f9Dn5N0um3bSiq6nS64v-pxW0gRoEsQYXfqquW6HAxVZoEibz5QMc5TiV13nytpSaiVOBaiwKBxMA686ifnXwh-0u8YnRmm4uFQVcOrepnv5XM?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.3040003,20.6446567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tlaquepaque Centro</name>
+        <description><![CDATA[<img src="https://doc-10-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/9udubhp0in84jcqi8mab6eol8g/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8Pit_lScqgcSX-hJX8AKkOymHnYHC6n3yUtIRQmaNV50aUBu2PrSqZZGye59SA3RuY69gbFdNG0_MPRdboBr3aTm26vJEySIdKD6ARVeCRAkyszniOCaSRe7Y2kgffAMk4GPBIhoi672glZ027fqJxQEvOqm8_4CPkynHHeX_Y3S-oB-Ynwg4yR-ryv2BeQaTtLhz?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/9udubhp0in84jcqi8mab6eol8g/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8Pit_lScqgcSX-hJX8AKkOymHnYHC6n3yUtIRQmaNV50aUBu2PrSqZZGye59SA3RuY69gbFdNG0_MPRdboBr3aTm26vJEySIdKD6ARVeCRAkyszniOCaSRe7Y2kgffAMk4GPBIhoi672glZ027fqJxQEvOqm8_4CPkynHHeX_Y3S-oB-Ynwg4yR-ryv2BeQaTtLhz?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.2998751,20.6374729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lázaro Cárdenas
+</name>
+        <description><![CDATA[<img src="https://doc-04-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/met62e6r6fotp9o42hoebq9afg/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PitKKi7qrn39UdmGW-2X_V_PRd_KTCxuwEheJUqk1Iz6MikSAqOHPZwjz5f-yT4GNs9I6b_h7xLSqyU6sGt5SfHBC-QURLm68zkmbNqCxOBykJx4qHnF5hMgJBCTakI7xoh_CGWm9oy9pWBT7g8LABRCR7gIXxbxhXZGlIVuTHRcSOXJMUgIVtXfQDhYqYiSrtAY?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/met62e6r6fotp9o42hoebq9afg/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PitKKi7qrn39UdmGW-2X_V_PRd_KTCxuwEheJUqk1Iz6MikSAqOHPZwjz5f-yT4GNs9I6b_h7xLSqyU6sGt5SfHBC-QURLm68zkmbNqCxOBykJx4qHnF5hMgJBCTakI7xoh_CGWm9oy9pWBT7g8LABRCR7gIXxbxhXZGlIVuTHRcSOXJMUgIVtXfQDhYqYiSrtAY?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.296179,20.6321408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central de Autobuses
+</name>
+        <description><![CDATA[<img src="https://doc-00-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/e3oedc1hrf2ssc4t2hiqo2gjk8/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuFHUG-Czoo1YMZWiX_0FWOErKsI9g5HuJ-APE3iHy4SjxrSnbq9hNdkvQIcfjauvmS9EA9UZ7gAW5DtcOzmc9kEVRuNujbVZcho4YUji9lfQyZbyhoZf6t6XSAM-yeN8JOQu-Z2JhBBl4KJa7fB1K6dB4vY5wFoYXqQEPiVJlFl1l8Z--VWtpl6nMYbEUmWLSL?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-ac-mymaps.googleusercontent.com/untrusted/hostedimage/rbmb726bshgfm38u5pd5kd133k/e3oedc1hrf2ssc4t2hiqo2gjk8/1703101084750/T8W0ds0Ti6K4ywlJrGvZdFQO8vfuxocJ/12221887656599007711/5AEQ8PiuFHUG-Czoo1YMZWiX_0FWOErKsI9g5HuJ-APE3iHy4SjxrSnbq9hNdkvQIcfjauvmS9EA9UZ7gAW5DtcOzmc9kEVRuNujbVZcho4YUji9lfQyZbyhoZf6t6XSAM-yeN8JOQu-Z2JhBBl4KJa7fB1K6dB4vY5wFoYXqQEPiVJlFl1l8Z--VWtpl6nMYbEUmWLSL?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.2852893,20.6232199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

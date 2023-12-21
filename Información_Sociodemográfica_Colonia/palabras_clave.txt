@@ -1,0 +1,6 @@
+coto
+cluster
+privada
+cerrada
+condominio
+residencial

@@ -1,0 +1,3 @@
+datos: Archivo de valores separados con comas que contiene la información necesaria para calcular el índice de desigualdad.
+descriptor de variables: Archivo de valores separados por comas que contiene la descripción de las variables contenidas en el archivo "datos.csv".
+AGEBs-Geo: Carpeta que contiene los archivos necesarios para replicar, mediante sistemas de información geográfica, el mapa de desigualdad.
