@@ -16,10 +16,10 @@ do
 
 	coordinates="$(cat index.html | grep 'google.com' | grep -Po '(?<=!2d)[^!]+!3d[^!]+')"
 
-	longitude="$(echo "$coordinates" | grep -Po '(?<=!3d).+')"
-	latitude="$(echo "$coordinates" | grep -Po '^[^!]+')"
+	latitude="$(echo "$coordinates" | grep -Po '(?<=!3d).+')"
+	longitude="$(echo "$coordinates" | grep -Po '^[^!]+')"
 
-	echo "${name^},${longitude},${latitude}" >> "Línea 1.csv"
+	echo "${name^},${latitude},${longitude}" >> "Línea 1.csv"
 
 	rm index.html
 done
