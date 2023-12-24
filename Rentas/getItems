@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Facebook.mhtml was extracted from: 
+# https://www.facebook.com/marketplace/you/saved
+cat Facebook.mhtml | perl -p -e 's/=\r\n//g' | grep -Pio '(?<=www.facebook.com\/marketplace\/item\/)\d+' > items.txt
