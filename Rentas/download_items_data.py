@@ -1,4 +1,8 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 import re
 import time
 
@@ -65,7 +69,7 @@ items = [
         ]
 
 with open("Rentas.csv", "w") as file:
-    file.write("Latitude,Longitude,Rented,Price,Link,Google Maps link\n")
+    file.write("Latitude,Longitude,Rented,Price,Link,Google Maps link,Description\n")
 
 for item in items:
 
@@ -80,14 +84,27 @@ for item in items:
     latitude = match.group(1)
     longitude = match.group(2)
 
-    match = re.search('Alquilado', page)
+    main_feed = driver.find_element(By.XPATH, '//div[@data-pagelet="MainFeed"]')
+
+    post_data = main_feed.find_element(By.XPATH, '//div[contains(@style,"display") and contains(@style,"inline")]')
+    #post_data = main_feed.find_element(By.XPATH, '//div[@style="display:inline"]')
+
+    #post_data.find_element(By.XPATH, '//span[text()="Ver más"]/parent::div').click()
+    try:
+        WebDriverWait(post_data, 120).until(EC.element_to_be_clickable((By.XPATH, '//span[text()="Ver más"]/parent::div'))).click()
+    except TimeoutException:
+        print("There was a TimeException when trying to click the button")
+
+    post_text = post_data.text
+
+    match = re.search('Alquilado', post_text)
 
     if match == None:
         rented = 'No'
     else:
         rented = 'Yes'
 
-    match = re.search('\$([^/]+)/mes', page)
+    match = re.search('\$([^/]+)/mes', post_text)
 
     price = match.group(1)
 
@@ -95,7 +112,11 @@ for item in items:
 
     google_maps_link = '"https://www.google.com/maps/search/?api=1&query=' + latitude + ',' + longitude + '"'
 
+    description = post_text.replace('\n', '\t')
+
+    description = '"' + description + '"'
+
     with open("Rentas.csv", "a") as file:
-        file.write(latitude + "," + longitude + "," + rented + "," + price + "," + link + "," + google_maps_link + "\n")
+        file.write(latitude + "," + longitude + "," + rented + "," + price + "," + link + "," + google_maps_link + "," + description + "\n")
 
     time.sleep(5)
