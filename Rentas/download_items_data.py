@@ -86,10 +86,10 @@ for item in items:
 
     main_feed = driver.find_element(By.XPATH, '//div[@data-pagelet="MainFeed"]')
 
-    post_data = main_feed.find_element(By.XPATH, '//div[contains(@style,"display") and contains(@style,"inline")]')
+    post_data = main_feed.find_element(By.XPATH, './/div[contains(@style,"display") and contains(@style,"inline")]')
 
     try:
-        WebDriverWait(post_data, 60).until(EC.element_to_be_clickable((By.XPATH, '//span[text()="Ver más"]/parent::div'))).click()
+        WebDriverWait(post_data, 60).until(EC.element_to_be_clickable((By.XPATH, './/span[text()="Ver más"]'))).click()
     except TimeoutException:
         print("There was a TimeException when trying to click the button")
 
