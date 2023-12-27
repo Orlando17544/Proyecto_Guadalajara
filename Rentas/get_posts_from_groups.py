@@ -33,16 +33,23 @@ driver.find_element(By.XPATH, '//button[@name="login"]').click()
 # group con posts: 949521149345732
 
 groups = [
-        "949521149345732",
-        "926692934070184",
-        "101428536996053", 
-        "1019877349016832", 
-        "1050530892029182",
+        "1504083032972281",
+        "723834411098468",
+        "1200120893397632",
+        "850414421695243",
+        "358194791226175",
+        "250866605349037",
+        "rentasentlajo",
+        "1205678469611086",
+        "418378306327844",
+        "123691638322648",
+        "1180084502186534",
+        "2365380587055100",
         ]
 
-if not os.path.isfile('./commerce_ids.txt'):
-    with open("commerce_ids.txt", "w") as file:
-        file.write("")
+if not os.path.isfile('./commerce_ids.csv'):
+    with open("commerce_ids.csv", "w") as file:
+        file.write("Id,Group\n")
 
 if not os.path.isfile('./Posts.csv'):
     with open("Posts.csv", "w") as file:
@@ -123,8 +130,8 @@ for group in groups:
 
                     # It is a commerce/listing
                     else:
-                        with open("commerce_ids.txt", "a") as file:
-                            file.write(commerce_id.group(0) + "\n")
+                        with open("commerce_ids.csv", "a") as file:
+                            file.write(commerce_id.group(0) + "," + group + "\n")
                         
                 else:
                     with open("rejected.txt", "a") as file:
