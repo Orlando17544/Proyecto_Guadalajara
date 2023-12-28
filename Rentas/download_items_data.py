@@ -3,10 +3,30 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver import Keys, ActionChains
 import re
 import time
 
 driver = webdriver.Firefox()
+
+driver.get("https://www.facebook.com/")
+
+with open("credentials.txt", "r") as file:
+    credentials = file.read()
+
+credentials = credentials.split(",")
+
+user_email = credentials[0]
+
+user_password = credentials[1]
+
+email = driver.find_element(By.XPATH, '//input[@id="email"]')
+ActionChains(driver).send_keys_to_element(email, user_email).perform()
+
+password = driver.find_element(By.XPATH, '//input[@id="pass"]')
+ActionChains(driver).send_keys_to_element(password, user_password).perform()
+
+driver.find_element(By.XPATH, '//button[@name="login"]').click()
 
 items = [
         "382408304169965",
@@ -79,7 +99,7 @@ for item in items:
 
     page = driver.page_source
 
-    match = re.search('"latitude":([^,]+),"longitude":([^,]+)', page)
+    match = re.search(r'"latitude":([^,]+),"longitude":([^,]+)', page)
 
     latitude = match.group(1)
     longitude = match.group(2)
@@ -95,14 +115,14 @@ for item in items:
 
     post_text = post_data.text
 
-    match = re.search('Alquilado', post_text)
+    match = re.search(r'Alquilado', post_text)
 
     if match == None:
         rented = 'No'
     else:
         rented = 'Yes'
 
-    match = re.search('\$([^/]+)/mes', post_text)
+    match = re.search(r'\$([^/]+)/mes', post_text)
 
     price = match.group(1)
 
