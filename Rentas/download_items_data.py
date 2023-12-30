@@ -23,10 +23,15 @@ user_password = credentials[1]
 email = driver.find_element(By.XPATH, '//input[@id="email"]')
 ActionChains(driver).send_keys_to_element(email, user_email).perform()
 
+time.sleep(3)
+
 password = driver.find_element(By.XPATH, '//input[@id="pass"]')
 ActionChains(driver).send_keys_to_element(password, user_password).perform()
 
+time.sleep(3)
+
 driver.find_element(By.XPATH, '//button[@name="login"]').click()
+
 
 items = [
         "363722842979931",
@@ -49,7 +54,7 @@ items = [
         "156359653897197",
         "361977886390629",
         "284788314427415",
-        "722942239340368",
+        #"722942239340368",
         "1017592886241991",
         "1024811001972809",
         "3347797385441005",
@@ -85,8 +90,8 @@ items = [
         "1135977604479792",
         ]
 
-with open("Rentas.csv", "w") as file:
-    file.write("Latitude,Longitude,Rented,Price,Link,Google Maps link,Description\n")
+#with open("Rentas.csv", "w") as file:
+#    file.write("Latitude,Longitude,Rented,Price,Link,Google Maps link,Description\n")
 
 for item in items:
 
@@ -96,17 +101,26 @@ for item in items:
 
     page = driver.page_source
 
-    match = re.search(r'"latitude":([^,]+),"longitude":([^,]+)', page)
+    match = re.search(r'"latitude":([^,]+),"longitude":([^}]+)\},"is_shipping_offered"', page)
 
-    latitude = match.group(1)
-    longitude = match.group(2)
+    if match == None:
+        match = re.search(r'"latitude":([^,]+),"longitude":([^,]+),"reverse_geocode_detailed"', page)
+        if match != None:
+            latitude = match.group(1)
+            longitude = match.group(2)
+        else:
+            latitude = ""
+            longitude = ""
+    else:
+        latitude = match.group(1)
+        longitude = match.group(2)
 
     main_feed = driver.find_element(By.XPATH, '//div[@data-pagelet="MainFeed"]')
 
     post_data = main_feed.find_element(By.XPATH, './/div[contains(@style,"display") and contains(@style,"inline")]')
 
     try:
-        WebDriverWait(post_data, 60).until(EC.element_to_be_clickable((By.XPATH, './/span[text()="Ver más"]'))).click()
+        WebDriverWait(post_data, 15).until(EC.element_to_be_clickable((By.XPATH, './/span[text()="Ver más"]'))).click()
     except TimeoutException:
         print("There was a TimeException when trying to click the button")
 

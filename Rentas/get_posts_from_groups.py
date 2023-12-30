@@ -15,7 +15,7 @@ driver.get("https://www.facebook.com/")
 with open("credentials.txt", "r") as file:
     credentials = file.read()
 
-credentials = credentials.split(",")
+credentials = credentials.split(";")
 
 user_email = credentials[0]
 
