@@ -33,18 +33,8 @@ driver.find_element(By.XPATH, '//button[@name="login"]').click()
 # group con posts: 949521149345732
 
 groups = [
-        "1504083032972281",
-        "723834411098468",
-        "1200120893397632",
-        "850414421695243",
-        "358194791226175",
-        "250866605349037",
-        "rentasentlajo",
-        "1205678469611086",
-        "418378306327844",
-        "123691638322648",
-        "1180084502186534",
-        "2365380587055100",
+       #"430535047789887",
+       "1577416719185957",
         ]
 
 if not os.path.isfile('./commerce_ids.csv'):
@@ -73,17 +63,13 @@ for group in groups:
         feed = driver.find_element(By.XPATH, '//div[@role="feed"]')
     except TimeoutException:
         print("There was a TimeException when trying to find the feed")
-
-    start_position = 0
-
-    for i in range(15):
+    # 18
+    for i in range(100):
         posts = feed.find_elements(By.XPATH, "*")
 
-        empty_posts = 0
+        print("Inicio: " + str(i))
 
-        print("Inicio")
-
-        for post in posts[start_position:]:
+        for post in posts[-18:]:
 
             try:
                 post_text = post.text
@@ -95,14 +81,6 @@ for group in groups:
                 print('""')
             else:
                 print(post_text.replace('\n', '\t')[:50])
-
-            if post_text == "":
-                empty_posts += 1
-                if empty_posts >= 8:
-                    start_position += empty_posts
-                continue
-            else:
-                empty_posts = 0
 
             description = post_text.replace('\n', '\t')
 
@@ -140,6 +118,6 @@ for group in groups:
                 with open("rejected.txt", "a") as file:
                     file.write(description + "\n")
 
-        driver.execute_script("window.scrollBy(0,3000)")
+        driver.execute_script("window.scrollBy(0,3500)")
         
         time.sleep(5)
