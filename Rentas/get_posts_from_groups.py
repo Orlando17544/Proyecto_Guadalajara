@@ -10,31 +10,35 @@ import os
 
 driver = webdriver.Firefox()
 
+# Login
 driver.get("https://www.facebook.com/")
 
 with open("credentials.txt", "r") as file:
     credentials = file.read()
 
-credentials = credentials.split(";")
+credentials = re.search(r'^([^,]+),(.+)', credentials)
 
-user_email = credentials[0]
 
-user_password = credentials[1]
+user_email = credentials.group(1)
+
+user_password = credentials.group(2)
 
 email = driver.find_element(By.XPATH, '//input[@id="email"]')
 ActionChains(driver).send_keys_to_element(email, user_email).perform()
 
+time.sleep(2)
+
 password = driver.find_element(By.XPATH, '//input[@id="pass"]')
 ActionChains(driver).send_keys_to_element(password, user_password).perform()
 
+time.sleep(2)
+
 driver.find_element(By.XPATH, '//button[@name="login"]').click()
 
-# group con commerce_ids: 926692934070184
-# group con posts: 949521149345732
-
+# Put groups to get posts
 groups = [
-       #"430535047789887",
-       "1577416719185957",
+       "430535047789887",
+       "1577416719185957"
         ]
 
 if not os.path.isfile('./commerce_ids.csv'):
@@ -49,7 +53,6 @@ if not os.path.isfile('./rejected.txt'):
     with open("rejected.txt", "w") as file:
         file.write("Description\n") 
 
-
 for group in groups:
 
     print("Group: " + group)
@@ -63,14 +66,16 @@ for group in groups:
         feed = driver.find_element(By.XPATH, '//div[@role="feed"]')
     except TimeoutException:
         print("There was a TimeException when trying to find the feed")
-    # 18
+    
+    # Put the number of scrolls in the range function
     for i in range(100):
         posts = feed.find_elements(By.XPATH, "*")
 
-        print("Inicio: " + str(i))
+        print("Number of scroll: " + str(i))
 
         for post in posts[-18:]:
 
+            # To avoid "Stale Element Exception"
             try:
                 post_text = post.text
                 post_code = post.get_attribute('outerHTML')
@@ -85,13 +90,18 @@ for group in groups:
             description = post_text.replace('\n', '\t')
 
             description = '"' + description + '"'
+            
+            # Find words in a common description of a rent
+            positive = re.search(r'\b(rent[ao]|departamentos?|depto\.|dpto\.|casas?|fraccionamiento|coto|recamaras?|dormitorios?|cuartos?|habitaci[óo]n(es)?|baños?|cocinas?|salas?|comedor)\b', post_text, re.IGNORECASE)
 
-            positive = re.search(r'\b(rent[ao]|departamento|depto\.|dpto\.|casa|fraccionamiento|coto|recamaras?|cuartos?|habitaci[óo]n(es)?|baños?)\b', post_text, re.IGNORECASE)
+            # Find words in a common description of somebody searching for a rent or somebody selling a house
+            negative1 = re.search(r'\b(busc[oóa]|venta|vende|vendo|preventa|urge|urgente|fovissste|infonavit|banjercito|cr[ée]ditos?)\b', post_text, re.IGNORECASE)
 
-            negative = re.search(r'\b(busc[oa]|venta|vende|vendo|preventa|urge|fovissste|infonavit|banjercito|cr[ée]ditos?)\b', post_text, re.IGNORECASE)
-
+            # Find prices high enough for it to be a sale
+            negative2 = re.search(r'\$ ?(\d{1,2}[,\'’]\d{3},\d{3}(\.00)?|\d{1,2}[.\'’]\d{3}\.\d{3}(,00)?|\d{3},\d{3}(\.00)?|\d{3}\.\d{3}(,00)?)', post_text, re.IGNORECASE)
+            
             if positive != None:
-                if negative == None:
+                if negative1 == None and negative2 == None:
                     commerce_id = re.search(r'(?<=/commerce/listing/)\d+', post_code)
 
                     # It is a post
@@ -118,6 +128,6 @@ for group in groups:
                 with open("rejected.txt", "a") as file:
                     file.write(description + "\n")
 
-        driver.execute_script("window.scrollBy(0,3500)")
+        driver.execute_script("window.scrollBy(0,8000)")
         
-        time.sleep(5)
+        time.sleep(25)
