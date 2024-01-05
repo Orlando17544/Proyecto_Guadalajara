@@ -69,6 +69,10 @@ for group in groups:
     
     # Put the number of scrolls in the range function
     for i in range(100):
+        print("Resting")
+        time.sleep(10)
+        print("Working")
+
         posts = feed.find_elements(By.XPATH, "*")
 
         print("Number of scroll: " + str(i))
@@ -92,7 +96,7 @@ for group in groups:
             description = '"' + description + '"'
             
             # Find words in a common description of a rent
-            positive = re.search(r'\b(rent[ao]|departamentos?|depto\.|dpto\.|casas?|fraccionamiento|coto|recamaras?|dormitorios?|cuartos?|habitaci[óo]n(es)?|baños?|cocinas?|salas?|comedor)\b', post_text, re.IGNORECASE)
+            positive = re.search(r'\b(rent[ao]|departamentos?|apartamentos?|depto\.|dpto\.|casas?|fraccionamiento|coto|recamaras?|dormitorios?|cuartos?|habitaci[óo]n(es)?|baños?|cocinas?|salas?|comedor)\b', post_text, re.IGNORECASE)
 
             # Find words in a common description of somebody searching for a rent or somebody selling a house
             negative1 = re.search(r'\b(busc[oóa]|venta|vende|vendo|preventa|urge|urgente|fovissste|infonavit|banjercito|cr[ée]ditos?)\b', post_text, re.IGNORECASE)
@@ -129,5 +133,3 @@ for group in groups:
                     file.write(description + "\n")
 
         driver.execute_script("window.scrollBy(0,8000)")
-        
-        time.sleep(25)
