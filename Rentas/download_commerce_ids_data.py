@@ -41,8 +41,8 @@ commerce_ids = [
         "910715274004243"
         ]
 
-if not os.path.isfile('./Rentas_items.csv'):
-    with open("Rentas_items.csv", "w") as file:
+if not os.path.isfile('./Rentas_commerce_ids.csv'):
+    with open("Rentas_commerce_ids.csv", "w") as file:
         file.write("Latitude,Longitude,Rented,Price,Link,Google Maps link,Description\n")
 
 for commerce_id in commerce_ids:
