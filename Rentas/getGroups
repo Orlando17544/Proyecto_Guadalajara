@@ -2,4 +2,4 @@
 
 # Facebook.mhtml was extracted from: 
 # https://www.facebook.com/groups/joins/?nav_source=tab
-cat Facebook.html | perl -p -e 's/=\r\n//g' | grep -Pio '(?<=https://www.facebook.com/groups/)[^/]+' | sort | uniq > groups.txt
+cat Facebook.mhtml | perl -p -e 's/=\r\n//g' | grep -Pio '(?<=https://www.facebook.com/groups/)[^/]+' | sort | uniq > groups.txt

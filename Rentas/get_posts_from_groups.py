@@ -37,8 +37,7 @@ driver.find_element(By.XPATH, '//button[@name="login"]').click()
 
 # Put groups to get posts
 groups = [
-       "430535047789887",
-       "1577416719185957"
+        "cuartosyroomieszmg"
         ]
 
 if not os.path.isfile('./commerce_ids.csv'):
@@ -68,7 +67,7 @@ for group in groups:
         print("There was a TimeException when trying to find the feed")
     
     # Put the number of scrolls in the range function
-    for i in range(100):
+    for i in range(20):
         print("Resting")
         time.sleep(10)
         print("Working")
@@ -76,7 +75,7 @@ for group in groups:
         posts = feed.find_elements(By.XPATH, "*")
 
         print("Number of scroll: " + str(i))
-
+        
         for post in posts[-18:]:
 
             # To avoid "Stale Element Exception"
