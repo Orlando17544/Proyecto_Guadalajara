@@ -67,7 +67,7 @@ for group in groups:
         print("There was a TimeException when trying to find the feed")
     
     # Put the number of scrolls in the range function
-    for i in range(20):
+    for i in range(200):
         print("Resting")
         time.sleep(10)
         print("Working")
