@@ -1,0 +1,11 @@
+QGIS:
+c59-644b-imb-huertas-sanmartin — Complementaria 59 (antes 644B IMB)
+c52-647a — Complementaria 52 (antes 647A)
+c87-647 — Complementaria 87 (antes 647)
+c06-136a — Complementaria 06 (antes 136A)
+c05-antes-136 — Complementaria 05 (antes 136)
+t03-66 — Troncal 02 (antes 80)
+t02-80 — Troncal 02 (antes 80)
+
+Moovit:
+C52-A / C87(647)
